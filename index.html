@@ -4,10 +4,93 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Coworking Space</title>
   </head>
   <body>
-    <div id="app"></div>
+
+    <!-- Container -->
+    <div class="pt-12 mx-32 md:mx-12">
+
+      <!-- Navbar -->
+      <div class="flex items-center justify-between">
+        <!-- left menu -->
+        <div class="space-x-10 hidden lg:flex uppercase text-text-color text-base font-openSans font-medium">
+          <a href="#" class="hover:text-black">Home</a>
+          <a href="#" class="hover:text-black">About</a>
+          <a href="#" class="hover:text-black">Services</a>
+        </div>
+
+        <!-- logo -->
+        <div class="font-openSans text-3xl font-medium">1-Space</div>
+
+        <!-- Right menu -->
+        <div class="space-x-10 hidden lg:flex uppercase text-text-color text-base font-openSans font-medium">
+          <a href="#" class="hover:text-black">Schedule</a>
+          <a href="#" class="hover:text-black">Space</a>
+          <a href="#" class="hover:text-black">Events</a>
+        </div>
+
+      </div>
+
+      <!-- Hero -->
+      <div class="pt-20 flex">
+
+        <div class="border-2 pt-48">
+
+            <svg width="84" height="17" viewBox="0 0 84 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.57715 15.8232L8.54383 3.88988C9.31385 2.34983 11.5116 2.34983 12.2816 3.88988L16.3794 12.0855C17.1494 13.6255 19.3471 13.6255 20.1172 12.0855L24.215 3.88988C24.985 2.34983 27.1827 2.34983 27.9527 3.88988L32.0505 12.0855C32.8206 13.6255 35.0183 13.6255 35.7883 12.0855L39.8861 3.88988C40.6561 2.34983 42.8539 2.34983 43.6239 3.88988L47.7217 12.0855C48.4917 13.6255 50.6894 13.6255 51.4594 12.0855L55.5572 3.88988C56.3273 2.34983 58.525 2.34983 59.295 3.88988L63.3928 12.0855C64.1628 13.6255 66.3606 13.6255 67.1306 12.0855L71.2284 3.88988C71.9984 2.34983 74.1961 2.34983 74.9661 3.88988L80.9328 15.8232" stroke="#FD5B2F" stroke-width="5.22371"/>
+            </svg>
+
+            <div class="pt-3 font-roboto font-bold text-6xl w-7/12">
+              <h1>A new way to revolutionise your workspace to yourself</h1>
+            </div>
+
+          <div class="pt-16">
+            <div class="bg-form-color">
+              <form action="">
+                <label for="">City</label>
+                <input type="text" placeholder="Input City">
+
+                <label for="">Location</label>
+                <input type="text" placeholder="Input Location">
+
+                <input type="submit" value="Schedule Visit">
+              </form>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-3.5 pt-7">
+          
+              <img src="/images/image-booked.png" class="transform translate-x-0" alt="">
+            
+              
+              <p class="">
+                16 people booked a visit in last 24 hours
+              </p>
+              
+          </div>
+
+        </div>
+
+        <div class="border-2 pt-8">
+
+          <img src="/images/bg-hero.png" alt="">
+
+        </div>
+
+      </div>
+
+      <!-- Parner -->
+      <div class="pt-28"></div>
+
+    </div>
+
+    
+
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
