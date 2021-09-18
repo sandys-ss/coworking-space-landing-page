@@ -18,6 +18,12 @@ module.exports = {
         'ellipse-yellow-second': '#FFF3C8',
         'form-color': '#F3F3F3',
       },
+      spacing: {
+        '100': '24rem',
+      },
+      blur: {
+        '4xl': '30rem',
+      },
     },
   },
   variants: {
