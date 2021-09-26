@@ -20,6 +20,8 @@ module.exports = {
       },
       spacing: {
         '100': '24rem',
+        '101': '29rem',
+        '102': '31rem',
       },
       blur: {
         '4xl': '30rem',
